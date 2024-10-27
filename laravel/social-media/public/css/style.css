@@ -1,0 +1,86 @@
+.post-card {
+    border: none;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    border-radius: 12px;
+    background: white;
+}
+
+.post-header {
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.post-content {
+    padding: 20px;
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+.post-footer {
+    padding: 10px 15px;
+    border-top: 1px solid #eee;
+}
+
+.comment-section {
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 0 0 12px 12px;
+}
+
+.comment-item {
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 8px;
+    background: white;
+    position: relative;
+}
+
+.comment-actions {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.like-button {
+    transition: all 0.3s ease;
+}
+
+.like-button.active {
+    color: #dc3545;
+}
+
+.like-count {
+    background: #f1f1f1;
+    padding: 3px 8px;
+    border-radius: 12px;
+    font-size: 0.9em;
+}
+
+.avatar-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.avatar-wrapper .status-dot {
+    position: absolute;
+    bottom: 2px;
+    right: 2px;
+    width: 10px;
+    height: 10px;
+    background: #28a745;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.delete-btn {
+    background: none;
+    border: none;
+    color: #dc3545;
+    cursor: pointer;
+    padding: 0 5px;
+}
+
+.delete-btn:hover {
+    color: #bd2130;
+}
